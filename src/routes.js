@@ -10,6 +10,8 @@ import Page404 from './pages/Page404';
 import ProductsPage from './pages/ProductsPage';
 import DashboardAppPage from './pages/DashboardAppPage';
 import QuestionDocument from './pages/QuestionDocument';
+import AddQuestion from './pages/AddQuestion';
+import AddPPT from './pages/AddPPT'
 
 // ----------------------------------------------------------------------
 
@@ -25,6 +27,8 @@ export default function Router() {
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
         { path: 'question-documents',element: <QuestionDocument />},
+        { path: 'add-question', element: <AddQuestion />},
+        { path: 'add-ppt', element: <AddPPT />}
       ],
     },
     {
